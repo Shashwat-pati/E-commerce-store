@@ -66,7 +66,7 @@ const Login = () => {
                             />
                         </div>
 
-                        <div className="my-[20rem]">
+                        <div className="my-[2rem]">
                             <label
                                 htmlFor="password"
                                 className="block text-sm font-medium text-white"
