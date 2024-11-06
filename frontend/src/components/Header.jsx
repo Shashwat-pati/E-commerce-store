@@ -16,19 +16,18 @@ const Header = () => {
 
     return (
         <>
-            <div className="flex justify-around">
+            <div className="w-[10rem] ml-[45%] p-3 flex items-center justify-center space-x-3">
+                <img
+                    src="uploads\Icon.png"
+                    className="w-[50%] h-[50%]"
+                    alt="Icon"
+                />
+                <span className="font-semibold text-3xl font-serif">
+                    ShipShop
+                </span>
+            </div>
+            <div className="flex justify-around mt-5">
                 <div className="xl:block lg:hidden md:hidden:sm:hidden">
-                    <div className="w-[10rem] ml-[4.5rem] p-3 flex items-center justify-center space-x-3">
-                        <img
-                            src="uploads\Icon.png"
-                            className="w-[50%] h-[50%]"
-                            alt="Icon"
-                        />
-                        <span className="font-semibold text-3xl font-serif">
-                            ShipShop
-                        </span>
-                    </div>
-
                     <div className="grid grid-cols-2">
                         {data.map((product) => (
                             <div key={product._id}>
