@@ -18,9 +18,17 @@ const Header = () => {
         <>
             <div className="flex justify-around">
                 <div className="xl:block lg:hidden md:hidden:sm:hidden">
-                    <div className="w-[30rem] ml-[2rem] p-3 relative">
-                        Hello
+                    <div className="w-[10rem] ml-[4.5rem] p-3 flex items-center justify-center space-x-3">
+                        <img
+                            src="uploads\Icon.png"
+                            className="w-[50%] h-[50%]"
+                            alt="Icon"
+                        />
+                        <span className="font-semibold text-3xl font-serif">
+                            ShipShop
+                        </span>
                     </div>
+
                     <div className="grid grid-cols-2">
                         {data.map((product) => (
                             <div key={product._id}>
